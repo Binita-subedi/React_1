@@ -3,6 +3,7 @@ import FragmentDemo from './Component/FragmentDemo'
 import Table from './Component/Table'
 import PureComp from './Component/PureComp'
 import ParentComp from './Component/ParentComp'
+import RefsDemo from './Component/RefsDemo'
 
 class App extends Component {
   render() {
@@ -10,7 +11,8 @@ class App extends Component {
       <div classname="App">
         {/* <Table /> */}
         {/* <FragmentDemo /> */}
-        <ParentComp />
+        {/* <ParentComp /> */}
+        <RefsDemo />
       </div>
     )
   }
